@@ -4,17 +4,50 @@
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
+
+  	margin: 0 !important;
+  	padding: 0 !important;
 }
+
+body.modal-open{
+            padding-right: 0!important;
+            overflow-y:scroll;
+            position: absolute;
+        }
+body {
+			
+            padding-right: 0!important;
+            overflow-y:scroll;
+            position:absolute;
+        }
 
 .nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+a { 
+	text-decoration:none; 
+
+}
+
+.modal-dialog {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.modal-content {
+    height: 100% !important;
+    min-height: 100% !important;
+    height: auto !important;
+    border-radius: 0 !important;
 }
 
 
-/*ICI SONT LISTES LES 12 PETITS BLOCS, LE MOYEN ET LE GRAND.*/
+
+/*ICI SONT LISTES LES 12 PETITS BLOCS, LE MOYEN ET LE GRAND.|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
 
 
 /*PETIT BLOC 1---------------------------------------1*/
@@ -28,7 +61,6 @@ html, body {
 
 	background-color:#349B84;
 }
-
 #pb1 img{
 	height:45%;
 	margin-top: 15% !important;
@@ -36,7 +68,6 @@ html, body {
 	margin-left: 25% !important;
 	margin-bottom: 10% !important;; 
 }
-
 #pb1 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px; 
@@ -45,8 +76,9 @@ html, body {
 }
 
 
-/*PETIT BLOC 2---------------------------------------2*/
 
+
+/*PETIT BLOC 2---------------------------------------2*/
 #pb2{
 	height: 33vw;
   width: 33vw;
@@ -57,7 +89,6 @@ html, body {
 	background-color: #80B5A2;
 	
 }
-
 #pb2 img{
 	height:35%;
 	margin-top: 25% !important;
@@ -68,7 +99,6 @@ html, body {
 	
 	
 }
-
 #pb2 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px; 
@@ -76,8 +106,9 @@ html, body {
 }
 
 
-/*PETIT BLOC 3---------------------------------------3*/
 
+
+/*PETIT BLOC 3---------------------------------------3*/
 #pb3{
 	  height: 33vw;
   width: 33vw;
@@ -88,7 +119,6 @@ html, body {
 	background-color:#ACCDB8 ;
 	
 }
-
 #pb3 img{
 	height:35%;
 	margin-top: 25% !important;
@@ -96,7 +126,6 @@ html, body {
 	margin-left: 25% !important;
 	margin-bottom: 10% !important;
 }
-
 #pb3 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px; 
@@ -105,9 +134,8 @@ html, body {
 
 
 
+
 /*PETIT BLOC 4---------------------------------------4*/
-
-
 #pb4{
 	  height: 33vw;
   width: 33vw;
@@ -119,7 +147,6 @@ html, body {
 	background-color:#9FBDA9 ;
 	
 }
-
 #pb4 img{
 	height:35%;
 	margin-top: 25% !important;
@@ -127,7 +154,6 @@ html, body {
 	margin-left: 25% !important;
 	margin-bottom: 10% !important;
 }
-
 #pb4 p{
 	display: block;
 	font-family: 'Roboto', sans-serif;
@@ -136,8 +162,9 @@ html, body {
 }
 
 
-/*PETIT BLOC 5---------------------------------------5*/
 
+
+/*PETIT BLOC 5---------------------------------------5*/
 #pb5{
 	  height: 33vw;
   width: 33vw;
@@ -151,7 +178,6 @@ html, body {
 	background-color:#FFFFFF ;
 	
 }
-
 #pb5 img{
 	height:35%;
 	margin-top: 25% !important;
@@ -159,7 +185,6 @@ html, body {
 	margin-left: 25% !important;
 	margin-bottom: 10% !important;
 }
-
 #pb5 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px; 
@@ -167,9 +192,9 @@ html, body {
 }
 
 
+
+
 /*PETIT BLOC 6---------------------------------------6*/
-
-
 #pb6{
 	height: 33vw;
     width: 33vw;
@@ -184,7 +209,6 @@ html, body {
 	background-color:#FFFFFF ;
 	
 }
-
 #pb6 img{
 	height:35%;
 	margin-top: 25% !important;
@@ -192,7 +216,6 @@ html, body {
 	margin-left: 25% !important;
 	margin-bottom: 10% !important;
 }
-
 #pb6 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px; 
@@ -201,9 +224,8 @@ html, body {
 
 
 
+
 /*PETIT BLOC 7---------------------------------------7*/
-
-
 #pb7{
 	  height: 33vw;
   width: 33vw;
@@ -214,7 +236,6 @@ html, body {
 	background-color:#859D8C ;
 	
 }
-
 #pb7 img{
 	height:35%;
 	margin-top: 25% !important;
@@ -222,7 +243,6 @@ html, body {
 	margin-left: 25% !important;
 	margin-bottom: 10% !important;
 }
-
 #pb7 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px; 
@@ -230,9 +250,9 @@ html, body {
 }
 
 
+
+
 /*PETIT BLOC 8---------------------------------------8*/
-
-
 #pb8{
 	  height: 33vw;
   width: 33vw;
@@ -247,7 +267,6 @@ html, body {
 	background-color:#FFFFFF ;
 	
 }
-
 #pb8 img{
 	height:35%;
 	margin-top: 25% !important;
@@ -255,7 +274,6 @@ html, body {
 	margin-left: 25% !important;
 	margin-bottom: 10% !important;
 }
-
 #pb8 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px; 
@@ -263,10 +281,9 @@ html, body {
 }
 
 
+
+
 /*PETIT BLOC 9---------------------------------------9*/
-
-
-
 #pb9{
     height: 33vw;
     width: 33vw;
@@ -282,7 +299,6 @@ html, body {
 	background-color:#FFFFFF ;
 	
 }
-
 #pb9 img{
 	height:35%;
 	margin-top: 25% !important;
@@ -290,7 +306,6 @@ html, body {
 	margin-left: 25% !important;
 	margin-bottom: 10% !important;
 }
-
 #pb9 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px; 
@@ -299,9 +314,8 @@ html, body {
 
 
 
+
 /*PETIT BLOC 10---------------------------------------10*/
-
-
 #pb10{
 	  height: 33vw;
   width: 33vw;
@@ -312,7 +326,6 @@ html, body {
 	background-color:#ACCDB8;
 	
 }
-
 #pb10 img{
 	height:35%;
 	margin-top: 25% !important;
@@ -328,9 +341,9 @@ html, body {
 
 
 
+
+
 /*PETIT BLOC 11---------------------------------------11*/
-
-
 #pb11{
 	height: 33vw;
   	width: 33vw;
@@ -355,9 +368,10 @@ html, body {
 }
 
 
+
+
+
 /*PETIT BLOC 12---------------------------------------12*/
-
-
 #pb12{
 	height: 33vw;
   	width: 33vw;
@@ -385,9 +399,9 @@ html, body {
 
 
 
+
+
 /*PETIT BLOC 13---------------------------------------13*/
-
-
 #pb13{
 	  height: 33vw;
   width: 33vw;
@@ -412,9 +426,11 @@ html, body {
 	font-size: 30px; 
 	color: aliceblue;
 }
+
+
+
+
 /*PETIT BLOC 14---------------------------------------14*/
-
-
 #pb14{
    	padding: 0 !important;
 	text-align: center;	
@@ -436,9 +452,11 @@ html, body {
 	font-size: 30px; 
 	color: aliceblue;
 }
+
+
+
+
 /*PETIT BLOC 15---------------------------------------15*/
-
-
 #pb15{
    	padding: 0 !important;
 	text-align: center;	
@@ -463,6 +481,7 @@ html, body {
 
 
 
+
 /*MOYEN BLOC 1---------------------------------------1*/
 
 #mb1{
@@ -484,6 +503,9 @@ html, body {
 	color:aliceblue;
 
 }
+
+
+
 
 /*GRAND BLOC 1---------------------------------------2*/
 
@@ -511,23 +533,13 @@ html, body {
 }
 
 
-.modal-dialog {
-    width: 100% !important;
-    height: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-.modal-content {
-    height: 100% !important;
-    min-height: 100% !important;
-    height: auto !important;
-    border-radius: 0 !important;
-}
 
 
-a {
-    text-decoration: none !important;    
-}
+
+
+
+
+/*ICI SONT INSCRIPTES LES MEDIAQUERIES POUR L'ADAPTIVITE DE LAPPLICATION AUX DIFFERENTS DEVICES |||||||||||||||||||||*/
 
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
 @media (min-width:120px)  {
